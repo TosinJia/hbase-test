@@ -34,8 +34,9 @@ public class FilterDataDriver implements Tool {
                 Put.class,
                 job);
 
-        //3. 配置Reducer //4. 配置inputformat
-        //        //5. 输出
+        //3. 配置Reducer
+        //4. 配置inputformat
+        //5. 输出
         TableMapReduceUtil.initTableReducerJob("user_info_mr03",
                 FilterDataReducer.class,
                 job);
